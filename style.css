@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: rgb(43, 42, 42);
+}
+.drumkit {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100vh;
+}
+
+.pad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    flex: 1 0 calc(33.333% - 20px) ;
+    background: radial-gradient( rgba(52, 250, 217, 0.781), rgb(0, 68, 255));
+    border-radius: 10px;
+}
